@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +14,14 @@
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
-const Route = use('Route')
+const Route = use("Route");
 
-Route.on('/').render('welcome')
+Route.get("/about", async () => {
+  return "어바웃페이지222";
+});
+
+Route.post("/users", async () => {
+  return "UserController.create";
+});
+
+// Route.on("/").render("welcome");
