@@ -16,6 +16,10 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use("Route");
 
+Route.get("/", async () => {
+  return "메인페이지";
+});
+
 Route.get("/about", async () => {
   return "어바웃페이지222";
 });

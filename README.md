@@ -13,3 +13,6 @@ A basic web application built with AdonisJS to demonstrate its features and arch
 ## Start the development server
 
 - npm start
+
+<!-- touch app/Models/User.js
+node ace app/Models/User.js -->
