@@ -21,3 +21,4 @@ After completing these steps, the project directory structure is scaffolded, pro
 13. package-lock과 node_modeles한번 삭제하고 `node ace configure @adonisjs/lucid`
 14. `node ace configure @adonisjs/lucid`
 15. `node ace make:model Todo -m`
+16. `node ace migration:run`
