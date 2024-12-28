@@ -8,3 +8,5 @@
      I chose: `api`</br>
 
 After completing these steps, the project directory structure is scaffolded, providing the foundational setup for the AdonisJS-TS application.
+
+5. `node ace serve --watch` - start the AdonisJS development server
