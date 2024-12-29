@@ -22,3 +22,4 @@ After completing these steps, the project directory structure is scaffolded, pro
 14. `node ace configure @adonisjs/lucid`
 15. `node ace make:model Todo -m`
 16. `node ace migration:run`
+17. making controller: `node ace make:controller Todo -r` (index, store, show, update, destroy)

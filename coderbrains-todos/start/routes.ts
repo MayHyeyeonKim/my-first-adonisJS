@@ -19,7 +19,10 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+import TodosController from 'App/Controllers/Http/TodosController'
 
-Route.get('/', async () => {
+Route.get('/', async () => { //라우트가 호출되면 즉시 실행되는 **익명 함수(콜백)**를 사용
   return { hello: 'world' }
 })
+
+Route.resource('todos', TodosController).apiOnly() //요청 처리를 컨트롤러의 메서드로 위임
